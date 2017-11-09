@@ -8,4 +8,4 @@ Välkommen till min Anax Flat-sida. Detta är början på ett arbete i kursen de
 
 Sidan kommer att uppdateras och förändras med tiden.
 
-![framsida](img/framsida.jpg)
+![framsida](img/hast.jpg)
