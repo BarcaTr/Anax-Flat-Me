@@ -40,6 +40,8 @@ return [
 /*
     // Used as menu together with responsive menu
     // Name of this menu
+    */
+
     "navbarMax" => [
         // Use for styling the menu
         "id" => "rm-menu",
@@ -63,7 +65,6 @@ return [
             ],
         ],
     ],
-*/
 
 
     /**
