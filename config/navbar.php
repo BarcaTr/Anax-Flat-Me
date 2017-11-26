@@ -27,10 +27,17 @@ return [
                 "title" => t("About this website")
             ],
 
-            "mig" => [
-                "text"  => t("Mig"),
-                "url"   => $this->di->get("url")->create("mig"),
-                "title" => t("Testsida")
+            "theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Theame selector")
+            ],
+
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("typography")
             ],
         ],
     ],
