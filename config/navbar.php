@@ -39,6 +39,12 @@ return [
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("typography")
             ],
+
+            "vgrid" => [
+                "text"  => t("vgrid"),
+                "url"   => $this->di->get("url")->create("vgrid"),
+                "title" => t("vgrid")
+            ],
         ],
     ],
 
