@@ -27,10 +27,16 @@ return [
                 "title" => t("About this website")
             ],
 
+            "theme selector" => [
+                "text"  => t("Theme-selector"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Theme selector")
+            ],
+
             "theme" => [
                 "text"  => t("Theme"),
-                "url"   => $this->di->get("url")->create("theme-selector"),
-                "title" => t("Theame selector")
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme")
             ],
 
 
@@ -44,6 +50,12 @@ return [
                 "text"  => t("vgrid"),
                 "url"   => $this->di->get("url")->create("vgrid"),
                 "title" => t("vgrid")
+            ],
+
+            "analysis" => [
+                "text"  => t("Analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("analysis")
             ],
         ],
     ],
